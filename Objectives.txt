@@ -1,0 +1,33 @@
+Lets define the Automation v1.
+        
+Input format:-
+------------
+N           ---> No. of Instagrams Links
+link1       ---> N Instagram Links.
+link2
+.
+.
+
+linkN       
+      
+
+
+Output format:-             (output prompt of "Google AI studio" LLM for each link  on shell)
+-------------
+<prompt output for link1>
+<prompt output for link2>
+.
+.
+.
+
+<prompt output for linkN>
+
+
+Working:    (For each Link)
+    
+    1. Paste the link onto a Instagram Downloader site, and get the Downloaded Instagram reel/post
+    2. Store the Downloaded post/reel locally in a specific directory.  
+    3. Send the file and prompt to Google AI studio gpt and get back the response
+    4. Display the reponse.
+
+
